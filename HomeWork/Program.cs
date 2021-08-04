@@ -14,6 +14,10 @@ namespace HomeWork
             st.Add2(6);
             st.show1();
             st.show2();
+            st.Add2(98);
+            st.show2();
+            //st.Add1(56);    //this will give the exception 
+
 
         }
     }
