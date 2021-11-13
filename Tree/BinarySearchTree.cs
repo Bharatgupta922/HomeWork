@@ -49,7 +49,33 @@ namespace Tree
             Console.Write($"{root.data} ,");
         }
 
+        public int Height(TreeNode root)
+        {
+            if (root is null) return 0;
+            return Math.Max(Height(root.left), Height(root.right)) + 1;    
+        }
 
+        public TreeNode Search(TreeNode root , int data)
+        {
+            if (root is null) return null;
+            if (root.data == data) return root;
+            else if(root.data > data)return Search(root.left, data);
+            else return Search(root.right, data);
+        }
+
+        public int countNodes(TreeNode root)
+        {
+            if (root is null) return 0;
+            return countNodes(root.left) + countNodes(root.right) + 1;
+        }
+
+        public int CountLeaves(TreeNode root)
+        {
+            if (root is null) return 0;
+            if(root.left is null && root.right is null) return 1;
+            return CountLeaves(root.left) + CountLeaves(root.right);
+        }
+        
 
     }
 }
