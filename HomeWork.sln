@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncExample", "AsyncExampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolishExpressions", "PolishExpressions\PolishExpressions.csproj", "{D6DF5438-F56E-4A8A-AFC9-9D30B93B631D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{B2C22331-FD4F-4EA4-9482-619F8D6199F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Algorithms.csproj", "{B2C22331-FD4F-4EA4-9482-619F8D6199F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursions", "Recursions\Recursions.csproj", "{FCB20D4A-A323-4B84-A52E-DB8298846F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{0F7DFF97-C4B8-4170-8065-4B090887F629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B2C22331-FD4F-4EA4-9482-619F8D6199F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C22331-FD4F-4EA4-9482-619F8D6199F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C22331-FD4F-4EA4-9482-619F8D6199F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB20D4A-A323-4B84-A52E-DB8298846F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB20D4A-A323-4B84-A52E-DB8298846F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB20D4A-A323-4B84-A52E-DB8298846F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB20D4A-A323-4B84-A52E-DB8298846F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7DFF97-C4B8-4170-8065-4B090887F629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7DFF97-C4B8-4170-8065-4B090887F629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7DFF97-C4B8-4170-8065-4B090887F629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7DFF97-C4B8-4170-8065-4B090887F629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
