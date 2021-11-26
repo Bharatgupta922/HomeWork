@@ -10,14 +10,22 @@ namespace Recursions
     {
         public static bool isSafe(int[,] board ,int n,int i ,int j)
         {
+            //check in the row 
             for(int row = 0; row < i; ++row)
              if(board[row , j] == 1)
                     return false;
 
+            //check in the col
+            for (int col = 0; col < j; ++col)
+                if (board[i, col] == 1)
+                    return false;
+
+            //check in upper left diagonal
             for(int x = i , y = j ;x>=0 && y >= 0; x-- , y--)
              if(board[x ,y] == 1)
                     return false;
 
+            //check in upper right diagonal 
             for(int x = i , y = j; x>=0 && y<=n-1; x-- , y++)
              if(board[x,y] == 1)
                     return false;
