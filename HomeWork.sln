@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursions", "Recursions\Recursions.csproj", "{FCB20D4A-A323-4B84-A52E-DB8298846F5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{0F7DFF97-C4B8-4170-8065-4B090887F629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree", "Tree\Tree.csproj", "{0F7DFF97-C4B8-4170-8065-4B090887F629}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionTree", "ExpressionTree\ExpressionTree.csproj", "{58DD0441-2C84-4DDE-94F2-0CB61E95DCB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AVL_Trees", "AVL_Trees\AVL_Trees.csproj", "{F33885FD-6068-4B7E-B760-A9D70387F7F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphs", "Graphs\Graphs.csproj", "{EA255A0B-D78E-498A-8490-1F645D206743}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{0F7DFF97-C4B8-4170-8065-4B090887F629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7DFF97-C4B8-4170-8065-4B090887F629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7DFF97-C4B8-4170-8065-4B090887F629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DD0441-2C84-4DDE-94F2-0CB61E95DCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DD0441-2C84-4DDE-94F2-0CB61E95DCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DD0441-2C84-4DDE-94F2-0CB61E95DCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DD0441-2C84-4DDE-94F2-0CB61E95DCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33885FD-6068-4B7E-B760-A9D70387F7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33885FD-6068-4B7E-B760-A9D70387F7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33885FD-6068-4B7E-B760-A9D70387F7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33885FD-6068-4B7E-B760-A9D70387F7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA255A0B-D78E-498A-8490-1F645D206743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA255A0B-D78E-498A-8490-1F645D206743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA255A0B-D78E-498A-8490-1F645D206743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA255A0B-D78E-498A-8490-1F645D206743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
