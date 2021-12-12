@@ -12,7 +12,16 @@ namespace Recursions
         {
             if (n > 0)
             {
-                return n%2 +  DecimalToBin(n / 2) ;
+                return DecimalToBin(n / 2) + n % 2;
+            }
+            return "";
+        }
+
+        public static string GenralConversionWithBase(int n , int b)
+        {
+            if (n > 0)
+            {
+                return GenralConversionWithBase(n / b,b);
             }
             return "";
         }
